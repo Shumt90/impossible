@@ -24,5 +24,6 @@ https://stackoverflow.com/questions/16213443/instruction-reordering-happens-befo
 
 
 ##Volatile
+
 Связи Reordering и Volatile не нашел. Написано A write to a volatile field happens before every subsequent read of that same field.
 как я это понимаю Volatile int d=1 будет атомарной и не более, на соседней код это не влияет.
