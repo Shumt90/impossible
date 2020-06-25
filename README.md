@@ -22,6 +22,9 @@ https://stackoverflow.com/questions/16213443/instruction-reordering-happens-befo
 
 Думаю это исследование может занять много часов)
 
+## Edit 06:25 21-27
+Из спецификации https://docs.oracle.com/javase/specs/jls/se7/html/jls-17.html#jls-17.4.5-110
+можно вывести что для proper synchronization потоков нужно сделать join() тогда Reordering не будет иметь значение.
 
 ## Volatile
 
